@@ -16,20 +16,20 @@ Abre tu terminal y ejecuta:
 ```bash
 git clone https://github.com/kercmari/books_drf_python.git
 ```
-1. Configurar Variables de Entorno
+2. Configurar Variables de Entorno
 Crea un archivo .env en la raíz del proyecto con el siguiente contenido:
 
-```
-
-SECRET_KEY=django-insecure-g0!iio=-kffxt!7q#!00c#u3k-^tit!zki4gg2k2ob)o($9xad
-DEBUG=True
-ALLOWED_HOSTS=*
-
-# MongoDB
-MONGO_DB_NAME=prueba
-MONGODB_URI=mongodb+srv://kerly:holamundo@test.lvmbh.mongodb.net/prueba?retryWrites=true&w=majority&appName=test
-
-```
+    ```
+    
+    SECRET_KEY=django-insecure-g0!iio=-kffxt!7q#!00c#u3k-^tit!zki4gg2k2ob)o($9xad
+    DEBUG=True
+    ALLOWED_HOSTS=*
+    
+    # MongoDB
+    MONGO_DB_NAME=prueba
+    MONGODB_URI=mongodb+srv://kerly:holamundo@test.lvmbh.mongodb.net/prueba?retryWrites=true&w=majority&appName=test
+    
+    ```
 
 Notas: * Reemplaza <usuario> y <contraseña> con tus credenciales reales de MongoDB Atlas. * Asegúrate de que tu IP esté permitida en las reglas de acceso de MongoDB Atlas.
 
