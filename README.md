@@ -80,3 +80,14 @@ Ejecuta las pruebas dentro del servicio web:
     ```
     docker-compose run web python manage.py test
     ```
+terms_of_service="https://www.google.com/policies/terms/",
+        contact=openapi.Contact(email="contact@ejemplo.com"),
+        license=openapi.License(name="BSD License"),
+
+##### Colleccion postman
+El archivo para exportar la collecion se encuentra   con el nombre siguiente:
+```
+collection.json
+```
+
+Solo queda importarlo directamnete en POSTMAN
