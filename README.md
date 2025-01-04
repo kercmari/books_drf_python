@@ -23,7 +23,7 @@ Crea un archivo .env en la raíz del proyecto con el siguiente contenido:
     
     SECRET_KEY=django-insecure-g0!iio=-kffxt!7q#!00c#u3k-^tit!zki4gg2k2ob)o($9xad
     DEBUG=True
-    ALLOWED_HOSTS=*
+    ALLOWED_HOSTS=['*']
     
     # MongoDB
     MONGO_DB_NAME=prueba
@@ -91,3 +91,12 @@ collection.json
 ```
 
 Solo queda importarlo directamnete en POSTMAN
+
+#### Desliegue en AWS
+Para poder consumir desde AWS comparto la siguiente IP
+```
+54.152.169.82:8000
+```
+Dentro de Postman se puede establecer el cambio de ip y puerto para la base_url con la que esta en AWS
+
+![alt text](image-2.png)
